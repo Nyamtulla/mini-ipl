@@ -10,7 +10,8 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 </head>
-<body style="background-image:url(https://cdn.siasat.com/wp-content/uploads/2020/02/IPL-2020-1.jpg);">
+<body style="background-image:url(https://cdn.siasat.com/wp-content/uploads/2020/02/IPL-2020-1.jpg); background-repeat: no-repeat;
+  background-attachment: fixed;">
 	<b><h1 align="center" style="color:#130ca6; font-style:italic;">/$MINI IPL$\</h1></b>
 	<p align="center" style="font-style: italic; font-size: 20px; font-family: cursive;">Mini IPL is a buddy game, inital league matches are decided by you and <b>the actual game starts from playoff</b> where the winning of your team depends on your luck<br><b>All the best for your team !</b></p>
 	<form id="league">
@@ -363,16 +364,13 @@
     	</div><br>
 
     	<center>
-    		<input id="playoff" type="button" class="btn btn-default btn-lg" name="league" value="Click ME to go for playoffs" onclick="myFun()">
+    		<input id="playoff" type="button" class="btn btn-default btn-lg" name="league" value="Click here to go for playoffs" onclick="myFun()">
     	</center>
 
 	</form>
 
 	<h2 align="center" style="color:black">Points Table</h2>
-	<section class="content-info">
-    <div class="container paddings-mini">
-        <div class="row">
-            <div class="col-lg-12">
+		
                 <table align="center" class="table-striped table-responsive table-hover result-point">
                     <thead class="point-table-head">
                         <tr>
@@ -441,11 +439,8 @@
                             <td id="8p"></td>
                         </tr>
                     </tbody>
-                </table>
-            </div>
-        </div>
-    </div>
-	</section>
+                </table><br><br>
+      
 
 		<div id="main-wrapper">
 				<h3 style="color: white">Qualifier Match</h3>
@@ -510,7 +505,7 @@
 
 	<script>
 
-		 var imag={SRH : "<img src=\"https://wallpapercave.com/wp/wp4128423.jpg\" width=\"30%\" height=\"30%\">" , RR : "<img src=\"https://iplwiki.com/wp-content/uploads/2019/01/rajasthan-royals-min.png\" width=\"30%\" height=\"30%\">" , CSK : "<img src=\"https://i.pinimg.com/originals/85/52/f8/8552f811e95b998d9505c43a9828c6d6.jpg\" width=\"30%\" height=\"30%\">" , KKR : "<img src=\"https://upload.wikimedia.org/wikipedia/en/6/6d/Trinbago_Knight_Riders.png\" width=\"30%\" height=\"30%\">" , KXIP : "<img src=\"https://upload.wikimedia.org/wikipedia/en/thumb/e/e7/Kings_XI_Punjab_logo.svg/200px-Kings_XI_Punjab_logo.svg.png\" width=\"30%\" height=\"30%\">" , MI : "<img src=\"https://www.indiantelevision.com/sites/default/files/images/mam-images/2015/03/28/Mumbai_Indians_Logo.jpg\" width=\"30%\" height=\"30%\">" , DC : "<img src=\"https://www.logotaglines.com/wp-content/uploads/2019/02/Delhi-Capitals-Logo-Tagline.jpg\" width=\"30%\" height=\"30%\">" , RCB : "<img src=\"https://c.ndtvimg.com/2020-02/1r5vdst_rcb_625x300_14_February_20.jpg\" width=\"30%\" height=\"30%\">" , tro : "<img src=\"https://cricketaddictor.com/wp-content/uploads/2020/01/IPL-Trophy-1200x800.jpg\" width=\"30%\" height=\"30%\">"};
+		 var imag={SRH : "<img src=\"https://wallpapercave.com/wp/wp4128423.jpg\" width=\"30%\" height=\"30%\">" , RR : "<img src=\"https://iplwiki.com/wp-content/uploads/2019/01/rajasthan-royals-min.png\" width=\"30%\" height=\"30%\">" , CSK : "<img src=\"https://i.pinimg.com/originals/85/52/f8/8552f811e95b998d9505c43a9828c6d6.jpg\" width=\"30%\" height=\"30%\">" , KKR : "<img src=\"https://upload.wikimedia.org/wikipedia/en/6/6d/Trinbago_Knight_Riders.png\" width=\"30%\" height=\"30%\">" , KXIP : "<img src=\"https://upload.wikimedia.org/wikipedia/en/thumb/e/e7/Kings_XI_Punjab_logo.svg/200px-Kings_XI_Punjab_logo.svg.png\" width=\"30%\" height=\"30%\">" , MI : "<img src=\"https://www.indiantelevision.com/sites/default/files/images/mam-images/2015/03/28/Mumbai_Indians_Logo.jpg\" width=\"30%\" height=\"30%\">" , DC : "<img src=\"https://images-na.ssl-images-amazon.com/images/I/717IF%2BwX44L._SX466_.jpg\" width=\"30%\" height=\"30%\">" , RCB : "<img src=\"https://c.ndtvimg.com/2020-02/1r5vdst_rcb_625x300_14_February_20.jpg\" width=\"30%\" height=\"30%\">" , tro : "<img src=\"https://cricketaddictor.com/wp-content/uploads/2020/01/IPL-Trophy-1200x800.jpg\" width=\"30%\" height=\"30%\">"};
 		 var team=["KKR", "DC", "SRH", "KXIP", "RCB", "RR", "MI", "CSK"];
 		 var click;
 		 var sf1p,sf2p,f1p,f2p;
@@ -763,7 +758,7 @@
         <center>  <h4 class="modal-title">! ! CHAMPIONS ! !</h4></center>
         </div>
         <div class="modal-body">
-         <center><span><div id="trophy"></div><h3> Lifted BY</h3> <div id="winner"></div></span></center>
+         <center><span><div id="trophy"></div><h3> Lifted by</h3> <div id="winner"></div></span></center>
         </div>
         <div class="modal-footer">
         	<span><p>Play again to make your team win :) Share this game with your cricket squad !</p>
