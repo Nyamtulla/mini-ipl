@@ -1,0 +1,136 @@
+#main-wrapper{
+	width:70%;
+	min-width:50px;
+	height:auto;
+	text-align:center;
+	margin: 0 auto;
+	background:black;
+	padding:5px;
+	box-shadow: 0 .75rem 0.75rem 0 black!important;
+	
+}
+
+.cc-selector input{
+    margin:0;padding:0;
+    -webkit-appearance:none;
+       -moz-appearance:none;
+            appearance:none;
+}
+.SRH{background-image:url(https://wallpapercave.com/wp/wp4128423.jpg);}
+.RCB{background-image:url(https://c.ndtvimg.com/2020-02/1r5vdst_rcb_625x300_14_February_20.jpg);}
+.CSK{background-image:url(https://i.pinimg.com/originals/85/52/f8/8552f811e95b998d9505c43a9828c6d6.jpg);}
+.MI{background-image:url(https://www.indiantelevision.com/sites/default/files/images/mam-images/2015/03/28/Mumbai_Indians_Logo.jpg);}
+.RR{background-image:url(https://iplwiki.com/wp-content/uploads/2019/01/rajasthan-royals-min.png);}
+.KKR{background-image:url(https://upload.wikimedia.org/wikipedia/en/6/6d/Trinbago_Knight_Riders.png);}
+.KXIP{background-image:url(https://upload.wikimedia.org/wikipedia/en/thumb/e/e7/Kings_XI_Punjab_logo.svg/200px-Kings_XI_Punjab_logo.svg.png);}
+.DC{background-image:url(https://www.logotaglines.com/wp-content/uploads/2019/02/Delhi-Capitals-Logo-Tagline.jpg);}
+
+.cc-selector input:active +.drinkcard-cc{opacity: .9;}
+.cc-selector input:checked +.drinkcard-cc{
+    -webkit-filter: none;
+       -moz-filter: none;
+            filter: none;
+}
+.drinkcard-cc{
+    cursor:pointer;
+    background-size:contain;
+    background-repeat:no-repeat;
+    display:inline-block;
+    width:100px;height:70px;
+    -webkit-transition: all 100ms ease-in;
+       -moz-transition: all 100ms ease-in;
+            transition: all 100ms ease-in;
+    -webkit-filter: brightness(1.8) grayscale(1) opacity(.7);
+       -moz-filter: brightness(1.8) grayscale(1) opacity(.7);
+            filter: brightness(1.8) grayscale(1) opacity(.7);
+}
+.drinkcard-cc:hover{
+    -webkit-filter: brightness(1.2) grayscale(.5) opacity(.9);
+       -moz-filter: brightness(1.2) grayscale(.5) opacity(.9);
+            filter: brightness(1.2) grayscale(.5) opacity(.9);
+}
+
+.content-info {
+    background: #f9f9f9;
+    padding: 40px 0;
+    background-size: cover !important;
+    background-position: top center !important;
+    background-repeat: no-repeat !important;
+    position: relative;
+    padding-bottom: 100px
+}
+
+table {
+    width: 40%;
+    background: #fff;
+    border: 1px solid #dedede
+}
+
+table thead tr th {
+    padding: 5px;
+    border: 1px solid #dedede;
+    color: #000
+}
+
+table.table-striped tbody tr:nth-of-type(odd) {
+  
+}
+
+table.result-point tr td.number {
+    width: 100px;
+    position: relative
+}
+
+.text-left {
+    text-align: left !important
+}
+
+table tr td {
+    padding: 10px 20px;
+    border: 1px solid #dedede
+}
+
+table.result-point tr td .fa.fa-caret-up {
+    color: green
+}
+
+table.result-point tr td .fa {
+    font-size: 20px;
+    position: absolute;
+    right: 20px
+}
+
+table tr td {
+    padding: 10px 40px;
+    border: 1px solid #dedede
+}
+
+table tr td img {
+    max-width: 32px;
+    float: left;
+    margin-right: 11px;
+    margin-top: 1px;
+    border: 1px solid #dedede
+}
+
+.fa {
+  padding: 10px;
+  font-size: 50px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.7;
+}
+.fa-instagram {
+  background: #b51663;
+  color: white;
+}
+.fa-linkedin {
+  background: #2a1799;
+  color: white;
+}
