@@ -16,14 +16,14 @@
        -moz-appearance:none;
             appearance:none;
 }
-.SRH{background-image:url(https://wallpapercave.com/wp/wp4128423.jpg);}
-.RCB{background-image:url(https://wallpapercave.com/wp/wp8887558.jpg);}
+.SRH{background-image:url(logo/SRH.jpg);}
+.RCB{background-image:url(logo/RCB.jpg);}
 .CSK{background-image:url(logo/CSK.jpg);}
-.MI{background-image:url(https://wallpapercave.com/wp/wp5040445.jpg);}
-.RR{background-image:url(https://wallpapercave.com/wp/wp6547608.jpg);}
-.KKR{background-image:url(https://wallpapercave.com/wp/wp5341959.jpg);}
-.KXIP{background-image:url(https://wallpapercave.com/wp/wp2458609.jpg);}
-.DC{background-image:url(https://wallpapercave.com/wp/wp7548624.jpg);}
+.MI{background-image:url(logo/MI.jpg);}
+.RR{background-image:url(logo/RR.jpg);}
+.KKR{background-image:url(logo/KKR.jpg);}
+.KXIP{background-image:url(logo/PK.jpg);}
+.DC{background-image:url(logo/DC.jpg);}
 
 .cc-selector input:active +.drinkcard-cc{opacity: .9;}
 .cc-selector input:checked +.drinkcard-cc{
